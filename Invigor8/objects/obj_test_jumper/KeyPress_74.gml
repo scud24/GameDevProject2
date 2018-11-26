@@ -8,5 +8,5 @@ current_formation = Formation.assemble;
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 4F3AD219
+/// @DnDDisabled : 1
 /// @DnDArgument : "msg" ""ping""
-show_debug_message(string("ping"));
