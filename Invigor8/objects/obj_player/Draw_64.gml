@@ -5,6 +5,14 @@
 /// @DnDArgument : "text" "links_after"
 draw_text_transformed(0, 0, string("Units following player: ") + string(links_after), 1, 1, 0);
 
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 784E6785
+/// @DnDArgument : "y" "30"
+/// @DnDArgument : "caption" ""Child_Link: ""
+/// @DnDArgument : "text" "child_link"
+draw_text_transformed(0, 30, string("Child_Link: ") + string(child_link), 1, 1, 0);
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 48358BDC
