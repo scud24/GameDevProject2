@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "aa0da964-f597-485a-9ba5-1d8494508621",
+            "Value": {
+                "id": "64203d0a-4b9b-4820-aa4b-713f1a99ca7d",
+                "resourcePath": "sprites\\spr_hero_wallsplat\\spr_hero_wallsplat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae104ba9-c849-4222-8bd6-870618714cc2",
             "Value": {
                 "id": "d7fa9ab8-d8ce-4756-a0eb-2efe62cd9814",

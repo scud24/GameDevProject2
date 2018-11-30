@@ -1,5 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 57060445
-/// @DnDDisabled : 1
-/// @DnDArgument : "code" "$(13_10)$(13_10)if(place_meeting(x+hspeed,y,template_platform_physics_link))$(13_10){$(13_10)	var target = instance_position(x+hspeed,y,template_platform_physics_link);$(13_10)	show_debug_message(target);$(13_10)	if(abs(target.local_hspeed) < abs(hspeed))$(13_10)	{$(13_10)		target.local_hspeed +=hspeed;$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)if(place_meeting(x,y+vspeed,template_platform_physics_link))$(13_10){$(13_10)	var target = instance_position(x,y+vspeed,template_platform_physics_link);$(13_10)	show_debug_message(target);$(13_10)	if(abs(target.local_vspeed) < abs(vspeed))$(13_10)	{$(13_10)		target.local_vspeed +=vspeed;$(13_10)	}$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "$(13_10)local_hspeed = lengthdir_x(path_speed, direction);$(13_10)local_vspeed = lengthdir_y(path_speed, direction);$(13_10)"
+
+local_hspeed = lengthdir_x(path_speed, direction);
+local_vspeed = lengthdir_y(path_speed, direction);
