@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "aa252e69-1783-4d41-a9f4-f3320331fa0c",
+            "Value": {
+                "id": "ce7252b1-1e8d-42ce-bca3-d530045b54c2",
+                "resourcePath": "sprites\\spr_moving_platform_target_node\\spr_moving_platform_target_node.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aac972e0-bdb9-4a9c-b3e4-4498af5e8271",
             "Value": {
                 "id": "7827c45f-9999-4d5d-a2ca-57701a68ebf4",
@@ -572,6 +580,14 @@
                 "id": "2c818d8c-6df8-4874-b347-baeb2405928a",
                 "resourcePath": "views\\c04220ed-a718-4828-8fdc-f805346f2493.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c19e989b-464b-40a9-8deb-fe69f0b4e727",
+            "Value": {
+                "id": "1ec8bb0b-ccca-4644-b7f8-fc44c04ddab7",
+                "resourcePath": "sprites\\spr_moving_platform_bounds_node\\spr_moving_platform_bounds_node.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -644,6 +660,22 @@
                 "id": "71a3daf8-e4ba-44cd-b031-638985504330",
                 "resourcePath": "objects\\obj_roomController\\obj_roomController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d1bac651-5d82-4d15-bf20-597edaa449f7",
+            "Value": {
+                "id": "1ba9bea5-3934-4e0f-9bb4-a81334152d63",
+                "resourcePath": "objects\\obj_moving_platform_target_node\\obj_moving_platform_target_node.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d2caa009-03a4-4e32-9980-9f323741f203",
+            "Value": {
+                "id": "32bbfe05-c5cf-4617-b588-f0dd06a6935f",
+                "resourcePath": "scripts\\scr_splitSetWait\\scr_splitSetWait.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -759,6 +791,14 @@
             }
         },
         {
+            "Key": "fc7795c8-3012-424d-86ac-07d6080a9dfa",
+            "Value": {
+                "id": "afc6bca5-27a1-4a90-8cef-17fa7eafdcd8",
+                "resourcePath": "objects\\obj_moving_platform_bounds_node\\obj_moving_platform_bounds_node.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ffb8f39f-9efa-44ae-b8a9-71cb88bd7bfd",
             "Value": {
                 "id": "793f495d-080f-44de-9148-1ff29247978f",
@@ -779,7 +819,8 @@
         "090b86e9-4622-4b02-ae33-ac0e0d98cf69",
         "53ab76ca-5e14-47ed-b9b7-6a0eb1ac780a",
         "637aad5a-f576-489a-9ed6-24c2d1d2c9bb",
-        "aac972e0-bdb9-4a9c-b3e4-4498af5e8271"
+        "aac972e0-bdb9-4a9c-b3e4-4498af5e8271",
+        "d2caa009-03a4-4e32-9980-9f323741f203"
     ],
     "tutorial": ""
 }

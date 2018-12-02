@@ -1,13 +1,15 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 2F2AFE8A
-/// @DnDArgument : "expr" "Formation.switch_prep"
-/// @DnDArgument : "var" "current_formation"
-current_formation = Formation.switch_prep;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 75CDB173
-/// @DnDArgument : "expr" "true"
-/// @DnDArgument : "var" "obj_roomController.switch_effect_shade.visible"
-obj_roomController.switch_effect_shade.visible = true;
+/// @DnDHash : 5B5A1EDC
+/// @DnDArgument : "code" "if(isGrounded)$(13_10){$(13_10)	current_formation = Formation.switch_prep;$(13_10)	obj_roomController.switch_effect_shade.visible = true;$(13_10)	show_switch_warning = false;$(13_10)}$(13_10)else$(13_10){$(13_10)	show_switch_warning = true;$(13_10)	alarm_set(1, 0.45*room_speed)$(13_10)}"
+if(isGrounded)
+{
+	current_formation = Formation.switch_prep;
+	obj_roomController.switch_effect_shade.visible = true;
+	show_switch_warning = false;
+}
+else
+{
+	show_switch_warning = true;
+	alarm_set(1, 0.45*room_speed)
+}
