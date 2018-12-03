@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "016e2c70-a5d6-492a-9bee-026c72d383e7",
+            "Value": {
+                "id": "18568421-07e3-402b-a7f7-773a45480455",
+                "resourcePath": "objects\\obj_intro_controller\\obj_intro_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "02c450f7-80d6-4536-aec8-8e36507443d2",
             "Value": {
                 "id": "57de91d4-6fdb-457f-9cf9-8f35b819fbef",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "6488aa3c-35bd-4f41-a1d0-9fb5a642dedd",
+            "Value": {
+                "id": "29acf73e-958f-4ae7-b880-af7589fef7c1",
+                "resourcePath": "rooms\\room_intro\\room_intro.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "64d92ddc-ae7a-4436-a78d-2111fb059bc7",
             "Value": {
                 "id": "9c842fdf-3575-4bef-940e-f52054d3d5d3",
@@ -639,6 +655,14 @@
             }
         },
         {
+            "Key": "c20707cc-15b3-436c-b267-1914bbcd178d",
+            "Value": {
+                "id": "50158010-b18f-4466-ac0b-ad73164d8201",
+                "resourcePath": "sprites\\spr_intro_background\\spr_intro_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c25ce3e6-5a57-4802-8ba0-95fd3474a1ee",
             "Value": {
                 "id": "d58dc0e8-41ab-4719-8d6c-99d0b4722ca2",
@@ -795,6 +819,14 @@
             "Value": {
                 "id": "d795df70-54b1-4a23-941d-01e926d234ea",
                 "resourcePath": "sprites\\spr_hero_move\\spr_hero_move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e56baf94-f10e-4b00-93a1-48d59e99ebd0",
+            "Value": {
+                "id": "deccf31d-5185-45f3-a355-70d9dd525de2",
+                "resourcePath": "sprites\\brush\\brush.yy",
                 "resourceType": "GMSprite"
             }
         },
