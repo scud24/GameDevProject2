@@ -129,7 +129,7 @@
         {
             "Key": "18de3807-2ee3-4db8-9a4d-49290d783ed7",
             "Value": {
-                "id": "13f0e0ac-4c97-4296-b1cc-bc1b6c671cee",
+                "id": "8bdbdc74-d83f-4bd2-ba4b-b1b5161fbca8",
                 "resourcePath": "scripts\\scr_add_Dialogue\\scr_add_Dialogue.yy",
                 "resourceType": "GMScript"
             }
@@ -145,7 +145,7 @@
         {
             "Key": "1ddac494-cfe1-4fdc-af3d-9f9c71a51dc4",
             "Value": {
-                "id": "83302180-89c8-4110-bfaa-9b2efe6ad68d",
+                "id": "a64d7fdf-81a6-4950-9c58-f2579e01b440",
                 "resourcePath": "scripts\\scr_get_Dialogue\\scr_get_Dialogue.yy",
                 "resourceType": "GMScript"
             }
@@ -385,7 +385,7 @@
         {
             "Key": "64d92ddc-ae7a-4436-a78d-2111fb059bc7",
             "Value": {
-                "id": "9c842fdf-3575-4bef-940e-f52054d3d5d3",
+                "id": "b54ff6d9-a084-4a9c-9c84-2ca6a9d023bd",
                 "resourcePath": "objects\\obj_dialogue_controller\\obj_dialogue_controller.yy",
                 "resourceType": "GMObject"
             }
@@ -481,7 +481,7 @@
         {
             "Key": "8a57f344-d20f-485f-8eb6-0dba3cc340d1",
             "Value": {
-                "id": "7487c904-3dd3-4160-8083-5655415cc8c9",
+                "id": "85be6089-3911-4173-b6ee-04b422b0df48",
                 "resourcePath": "scripts\\scr_start_Dialogue\\scr_start_Dialogue.yy",
                 "resourceType": "GMScript"
             }
