@@ -15,7 +15,6 @@
             "m_owner": "016e2c70-a5d6-492a-9bee-026c72d383e7"
         },
         {
-
             "id": "9e5177d0-ca43-4d36-ab5b-115f272e898f",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -34,7 +33,6 @@
             "enumb": 107,
             "eventtype": 9,
             "m_owner": "016e2c70-a5d6-492a-9bee-026c72d383e7"
-
         },
         {
             "id": "c7c6cba5-e3f8-4d9a-9e5f-3e9c592c3b80",
