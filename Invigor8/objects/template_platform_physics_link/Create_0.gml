@@ -56,3 +56,9 @@ jump_continuous = false;
 /// @DnDVersion : 1
 /// @DnDHash : 42884557
 event_inherited();
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7AC47FF3
+/// @DnDArgument : "code" "transform_parent = pointer_null;"
+transform_parent = pointer_null;
