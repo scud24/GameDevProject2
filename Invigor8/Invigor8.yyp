@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "c7be21b0-b474-4d46-be3f-19ce43ab08fa",
+            "Value": {
+                "id": "6dd8bafa-92b5-47e5-b023-05a28b06d71b",
+                "resourcePath": "fonts\\intro_font\\intro_font.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c9616d89-edb6-4a8e-b075-9af4bcc3a19c",
             "Value": {
                 "id": "284f0d45-6693-4166-a104-01987a883831",
@@ -767,6 +775,14 @@
             }
         },
         {
+            "Key": "d885f5ad-acaf-47a1-b2db-2a96007eed95",
+            "Value": {
+                "id": "6c18431d-6cac-45a7-a758-3ba5949fd32f",
+                "resourcePath": "fonts\\fnt_dialogue\\fnt_dialogue.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d8fe040e-4fc6-44f2-bda8-cd3240e80c0e",
             "Value": {
                 "id": "a5f40be1-9060-4973-b32b-4d2a4e936789",
@@ -795,6 +811,14 @@
             "Value": {
                 "id": "47140d38-7e5c-48dc-aca8-4f874b717e3a",
                 "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e0958b13-1a02-443e-a0d9-63acf991d467",
+            "Value": {
+                "id": "7e1b00bf-94c4-4ebe-8c55-6b7d321df55b",
+                "resourcePath": "rooms\\room_weighted_button\\room_weighted_button.yy",
                 "resourceType": "GMRoom"
             }
         },
