@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 326CFADA
-/// @DnDArgument : "code" "isPlayerCharacter = true;$(13_10)$(13_10)links_after = 7;$(13_10)current_team_num = 1;$(13_10)next_link_object = obj_test_jumper;$(13_10)follow_started = true;$(13_10)current_action = Action.neutral;$(13_10)formation_selection = 0;$(13_10)show_switch_warning = false;$(13_10)$(13_10)for(i = 0; i < gamepad_get_device_count(); i++)$(13_10){$(13_10)show_debug_message(string(i) + gamepad_get_description(i));$(13_10)}$(13_10)$(13_10)show_debug_message("Num axises" + string(gamepad_axis_count(4)));"
+/// @DnDArgument : "code" "isPlayerCharacter = true;$(13_10)$(13_10)links_after = 7;$(13_10)current_team_num = 1;$(13_10)next_link_object = obj_test_jumper;$(13_10)follow_started = true;$(13_10)current_action = Action.neutral;$(13_10)formation_selection = 0;$(13_10)links_following_after_split = 0;$(13_10)show_switch_warning = false;$(13_10)$(13_10)for(i = 0; i < gamepad_get_device_count(); i++)$(13_10){$(13_10)show_debug_message(string(i) + gamepad_get_description(i));$(13_10)}$(13_10)$(13_10)show_debug_message("Num axises" + string(gamepad_axis_count(4)));"
 isPlayerCharacter = true;
 
 links_after = 7;
@@ -10,6 +10,7 @@ next_link_object = obj_test_jumper;
 follow_started = true;
 current_action = Action.neutral;
 formation_selection = 0;
+links_following_after_split = 0;
 show_switch_warning = false;
 
 for(i = 0; i < gamepad_get_device_count(); i++)
