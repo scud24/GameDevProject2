@@ -22,7 +22,11 @@ alarm_set(0, 1.5*room_speed);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 772F70D2
-/// @DnDArgument : "code" "for(var i = 0; i < obj_roomController.downed_units; i++)$(13_10){$(13_10)	with(obj_player)$(13_10)	{$(13_10)		show_debug_message("Safe-o-matic attempts to spawn character");$(13_10)		new_link = instance_create_layer(x,y,"Instances", next_link_object);$(13_10)		scr_addEndLink(new_link);$(13_10)		new_link.follow_started = true;$(13_10)		obj_roomController.downed_units--;$(13_10)	}$(13_10)}"
+/// @DnDArgument : "code" "if(other.object_index==obj_player)$(13_10){$(13_10)	audio_play_sound(door_sound, 10, false);$(13_10)}$(13_10)for(var i = 0; i < obj_roomController.downed_units; i++)$(13_10){$(13_10)	with(obj_player)$(13_10)	{$(13_10)		show_debug_message("Safe-o-matic attempts to spawn character");$(13_10)		new_link = instance_create_layer(x,y,"Instances", next_link_object);$(13_10)		scr_addEndLink(new_link);$(13_10)		new_link.follow_started = true;$(13_10)		obj_roomController.downed_units--;$(13_10)	}$(13_10)}"
+if(other.object_index==obj_player)
+{
+	audio_play_sound(door_sound, 10, false);
+}
 for(var i = 0; i < obj_roomController.downed_units; i++)
 {
 	with(obj_player)
