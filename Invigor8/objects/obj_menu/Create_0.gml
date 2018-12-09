@@ -3,7 +3,7 @@
 /// @DnDHash : 5D16A45C
 /// @DnDArgument : "soundid" "snd_menu_music"
 /// @DnDArgument : "loop" "1"
-/// @DnDSaveInfo : "soundid" "e1da5f13-6d20-489c-90ce-b32dfe8ac3f6"
+/// @DnDSaveInfo : "soundid" "eaaf4bb6-dfed-4cd2-9ccb-8c475950e272"
 audio_play_sound(snd_menu_music, 0, 1);
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
