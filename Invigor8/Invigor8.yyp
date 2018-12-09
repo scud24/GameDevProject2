@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "00927a01-a2e5-4520-b387-f6f8c5fd32e7",
+            "Value": {
+                "id": "2e4deccd-e767-4e8c-adea-aee685b10938",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_obj_pickup\/snd_obj_pickup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "011a33b0-adf9-446c-ac14-1d17df329e5e",
             "Value": {
                 "id": "082423a5-fe65-4f8d-a0ce-37bcde65980e",
@@ -1081,6 +1100,25 @@
                 ],
                 "resourcePath": "objects\/template_platform_physics_link\/template_platform_physics_link.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7b6b6972-73c8-4985-b387-3db9dca73830",
+            "Value": {
+                "id": "372d9932-2ea8-486f-bef6-47b983afabac",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound8\/sound8.yy",
+                "resourceType": "GMSound"
             }
         },
         {
