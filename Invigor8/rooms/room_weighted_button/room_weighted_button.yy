@@ -2,7 +2,7 @@
 {
     "name": "room_weighted_button",
     "id": "e0958b13-1a02-443e-a0d9-63acf991d467",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
