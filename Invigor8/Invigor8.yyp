@@ -258,15 +258,7 @@
             "Key": "40486d6d-64ff-4b3c-a498-1a48ac98217d",
             "Value": {
                 "id": "6b62fc40-10a4-41cc-b66f-dbf8edf7c52c",
-                "resourcePath": "sprites\\spr_player\\spr_player.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4aecc72c-f0e7-4be1-8726-7bae493458fd",
-            "Value": {
-                "id": "68e6b790-8081-4d6c-aaac-a5dd494b6941",
-                "resourcePath": "sprites\\spr_energized_guy\\spr_energized_guy.yy",
+                "resourcePath": "sprites\\spr_player1\\spr_player1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -274,7 +266,7 @@
             "Key": "4c6713ca-37ca-4e3e-aad2-2cef3f74317f",
             "Value": {
                 "id": "3a1e63dd-c72d-4476-bfc0-39f7ac3a3c05",
-                "resourcePath": "sprites\\spr_shadow\\spr_shadow.yy",
+                "resourcePath": "sprites\\spr_shadow1\\spr_shadow1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -379,6 +371,14 @@
             "Value": {
                 "id": "258fff7a-f7a4-40ca-a47a-b2b28d3c882b",
                 "resourcePath": "sprites\\spr_hero_longfall\\spr_hero_longfall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "63c358e7-3e7f-4566-b07b-67cbaa3e6a80",
+            "Value": {
+                "id": "6af04ed1-f895-4023-90ed-30e8050b78b3",
+                "resourcePath": "sprites\\spr_soda1\\spr_soda1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "dcaa1fd0-8584-46d1-86fa-be379ca36d70",
+            "Value": {
+                "id": "e68dac10-889f-49f1-af2c-553081832f4f",
+                "resourcePath": "sprites\\spr_shadow\\spr_shadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dedced84-1747-4e3a-aedc-698356428f08",
             "Value": {
                 "id": "d3fc49b1-03e2-4c6b-9945-7963f4bbe6ab",
@@ -858,7 +866,7 @@
             "Key": "df4754c7-eff6-488b-9edd-1a8559192354",
             "Value": {
                 "id": "2a3a5a2b-fdd2-4d09-87af-6d4d01930930",
-                "resourcePath": "sprites\\spr_tired_guy\\spr_tired_guy.yy",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
             }
         },
