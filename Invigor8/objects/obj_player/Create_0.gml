@@ -36,9 +36,6 @@ d_mechanics_text=
 	scr_add_Dialogue("Use the arrowkeys to itterate through the menu", true, spr_X, false)
 	scr_add_Dialogue("Assemble makes the split off clones path to you", false, spr_X, false);
 
-d_weighted_buttons = 
-	scr_add_Dialogue("This puzzle requires you to use the split option.", false,spr_X, false );
-
 for(i = 0; i < gamepad_get_device_count(); i++)
 {
 	show_debug_message(string(i) + gamepad_get_description(i));
