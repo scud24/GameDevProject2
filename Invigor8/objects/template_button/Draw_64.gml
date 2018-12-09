@@ -11,10 +11,11 @@ draw_set_alpha(l6196261A_0 / $ff);
 /// @DnDHash : 5C045903
 /// @DnDArgument : "x" "-4-camera_get_view_x(view_camera[0])"
 /// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "0-camera_get_view_y(view_camera[0])"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "text" "units_on_button"
-draw_text_transformed(x + -4-camera_get_view_x(view_camera[0]), y + 0, "" + string(units_on_button), 1, 1, 0);
+draw_text_transformed(x + -4-camera_get_view_x(view_camera[0]), y + 0-camera_get_view_y(view_camera[0]), "" + string(units_on_button), 1, 1, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "77808ce0-a648-4809-af94-23c71aa12ef6",
+            "Value": {
+                "id": "6fb6a545-c3d6-4f30-bc71-ce995a52381a",
+                "resourcePath": "rooms\\room_more_weighted_buttons\\room_more_weighted_buttons.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "794650d5-b26c-465a-b323-37cd091ac9c0",
             "Value": {
                 "id": "3c09a50e-8926-420e-9dbd-fd5bc8169cab",
@@ -556,6 +564,14 @@
                 "id": "59363ff5-7e0c-47cc-8066-6b712c8651fe",
                 "resourcePath": "sprites\\spr_safe_o_matic_inside\\spr_safe_o_matic_inside.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6ec6e76-3af8-4b3e-85d6-ca2a0f8c1db7",
+            "Value": {
+                "id": "9c8522df-793f-4114-8841-d53913101f2a",
+                "resourcePath": "objects\\obj_door2\\obj_door2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
