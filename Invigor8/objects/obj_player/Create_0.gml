@@ -1,7 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 326CFADA
-/// @DnDArgument : "code" "isPlayerCharacter = true;$(13_10)$(13_10)links_after = 7;$(13_10)current_team_num = 1;$(13_10)next_link_object = obj_test_jumper;$(13_10)follow_started = true;$(13_10)current_action = Action.neutral;$(13_10)formation_selection = 0;$(13_10)selection_angle_offset = 0;$(13_10)links_following_after_split = 0;$(13_10)show_switch_warning = false;$(13_10)angle_substep = 0;$(13_10)angle_step = 0;$(13_10)substeps_remaining = 0;$(13_10)num_formations = 5;$(13_10)num_angle_substeps = 15;$(13_10)$(13_10)d_weighted_buttons = $(13_10)	scr_add_Dialogue("This puzzle requires you to use the split option.", false,spr_X, false );$(13_10)$(13_10)for(i = 0; i < gamepad_get_device_count(); i++)$(13_10){$(13_10)	show_debug_message(string(i) + gamepad_get_description(i));$(13_10)}$(13_10)$(13_10)show_debug_message("Num axises" + string(gamepad_axis_count(4)));"
 
 /// @DnDArgument : "code" "isPlayerCharacter = true;$(13_10)$(13_10)links_after = 7;$(13_10)current_team_num = 1;$(13_10)next_link_object = obj_test_jumper;$(13_10)follow_started = true;$(13_10)current_action = Action.neutral;$(13_10)formation_selection = 0;$(13_10)selection_angle_offset = 0;$(13_10)links_following_after_split = 0;$(13_10)show_switch_warning = false;$(13_10)angle_substep = 0;$(13_10)angle_step = 0;$(13_10)substeps_remaining = 0;$(13_10)num_formations = 4;$(13_10)num_angle_substeps = 15;$(13_10)selected_character= pointer_null;$(13_10)selected_character_index = 0;$(13_10)lead_links = ds_list_create();$(13_10)$(13_10)for(i = 0; i < gamepad_get_device_count(); i++)$(13_10){$(13_10)	show_debug_message(string(i) + gamepad_get_description(i));$(13_10)}$(13_10)$(13_10)show_debug_message("Num axises" + string(gamepad_axis_count(4)));"
 
@@ -37,9 +36,6 @@ d_mechanics_text=
 	scr_add_Dialogue("Hold h to select a formation", true, spr_X, false)
 	scr_add_Dialogue("Use the arrowkeys to itterate through the menu", true, spr_X, false)
 	scr_add_Dialogue("Assemble makes the split off clones path to you", false, spr_X, false);
-
-d_weighted_buttons = 
-	scr_add_Dialogue("This puzzle requires you to use the split option.", false,spr_X, false );
 
 for(i = 0; i < gamepad_get_device_count(); i++)
 {
