@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "05d52920-8031-472c-91a1-66339fda3433",
+            "Value": {
+                "id": "c5d46742-ac7a-4c0f-9c98-9f19d56c3749",
+                "resourcePath": "sprites\\spr_constructiontiles\\spr_constructiontiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "074b9bf1-18ff-41c3-aa74-01928e43b67d",
             "Value": {
                 "id": "d06df573-5e37-4fd6-9798-efe1b0266252",
@@ -100,6 +108,14 @@
                 "id": "fc67fc1b-cd2e-47ef-bb04-78eef1e63cc9",
                 "resourcePath": "scripts\\scr_shiftLinksForward\\scr_shiftLinksForward.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0c1da8f8-d52d-4c86-92e8-2d03e8af3f36",
+            "Value": {
+                "id": "9cb0afb3-6c73-4100-aff2-ca87e358074f",
+                "resourcePath": "sprites\\spr_citytiles\\spr_citytiles.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -463,6 +479,14 @@
             }
         },
         {
+            "Key": "6ee767e9-acc2-4f73-979b-37660ae3d10e",
+            "Value": {
+                "id": "95cf4b6a-b3c9-45a1-a0ff-ebb79440b805",
+                "resourcePath": "sprites\\spr_industrial_background\\spr_industrial_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "730daca0-fbd2-4bd0-b6c0-d52e36177201",
             "Value": {
                 "id": "df546335-baf4-4990-b6d6-c73791ec7c78",
@@ -564,6 +588,22 @@
                 "id": "674b6a75-5424-45ec-83ff-ce8c43046a1c",
                 "resourcePath": "views\\8da9fed0-18e3-492d-ab60-1f2f841e26de.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8eb6d2dc-1c97-47e5-b73c-713312b86373",
+            "Value": {
+                "id": "dce4bb85-3d79-4400-9f2e-fdc0c5152bef",
+                "resourcePath": "sprites\\spr_construction_background\\spr_construction_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8eef97af-e6b0-4e80-81de-eb1b10eff116",
+            "Value": {
+                "id": "3a8c5df2-865e-453d-b259-5d812328c9a6",
+                "resourcePath": "tilesets\\construction_tiles\\construction_tiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -679,6 +719,14 @@
             }
         },
         {
+            "Key": "b730db16-219e-4c13-b307-19285523616c",
+            "Value": {
+                "id": "fd225854-cdc9-44c3-b5af-5d589a949776",
+                "resourcePath": "tilesets\\industrial_tiles\\industrial_tiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "b7b510df-57a2-405d-b2cf-c04a0c2e1c39",
             "Value": {
                 "id": "b9234ddd-fafe-424a-8412-bd9e82c8c58d",
@@ -691,6 +739,14 @@
             "Value": {
                 "id": "a33857c9-640b-45b4-b553-51c4b34af6d1",
                 "resourcePath": "sprites\\spr_hero_wallsplat\\spr_hero_wallsplat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba06f9f4-a123-4e30-8c04-fd18ff9f8b86",
+            "Value": {
+                "id": "2290da0a-d819-424b-9d53-7b648bd0a8fd",
+                "resourcePath": "sprites\\spr_industrialtiles\\spr_industrialtiles.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -863,6 +919,14 @@
             }
         },
         {
+            "Key": "d36a4e30-2031-45d3-9355-07c82208a4ee",
+            "Value": {
+                "id": "099f4174-49da-43c0-9474-8884e4d4e082",
+                "resourcePath": "sprites\\spr_city_background\\spr_city_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d59bd679-e7a3-4c99-94e6-4f1393e93c1b",
             "Value": {
                 "id": "d049baae-671e-46c2-9744-bcdade9cb78a",
@@ -1020,6 +1084,14 @@
                 "id": "cf1d50a8-54cd-4cc7-a2fc-1160e6b74da7",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ec864abe-29e4-441d-8fdb-b89d2ce396d2",
+            "Value": {
+                "id": "45f8c19b-968c-4ff0-8e3a-b9af06cf607c",
+                "resourcePath": "tilesets\\city_tiles\\city_tiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
